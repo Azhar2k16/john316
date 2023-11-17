@@ -13,7 +13,7 @@ Rails.application.configure do
 
   # Show full error reports.
   config.consider_all_requests_local = true
-  config.hosts << "https://john316-6f4bp19x.b4a.run"
+  config.hosts << /[a-z0-9]+\.c9users\.io/
 
 
   # Enable server timing
